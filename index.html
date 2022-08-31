@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipment history</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+    <div class="main">
+        <h1 class="heading animate__animated animate__backInLeft">Shipment history</h1>
+        <div class="container animate__animated animate__backInDown">
+            <div class="shipment1">
+                <div class="shipment">
+                    <div class="date">April 26th</div>
+                    <div class="time">2:30pm</div>
+                    <div class="event">
+                        <h1 class="title">Delivered</h1>
+                        <div class="comment">Signed for</div>
+                    </div>
+                    <div class="eventPosition">Mango, TG</div>
+                </div>
+            </div>
+            <div class="shipment2">
+                <div class="shipment">
+                    <div class="date">April 26th</div>
+                    <div class="time">2:30pm</div>
+                    <div class="event">
+                        <h1 class="title">Received at Local Facility</h1>
+                    </div>
+                    <div class="eventPosition">Kara, TG</div>
+                </div>
+            </div>
+            <div class="shipment3">
+                <div class="shipment">
+                    <div class="date">May 1st</div>
+                    <div class="time">2:30pm</div>
+                    <div class="event">
+                        <h1 class="title">Shipment expection</h1>
+                        <div class="comment">Shipment held at warehouse</div>
+                    </div>
+                    <div class="eventPosition">Kara, TG</div>
+                </div>
+            </div>
+            <div class="shipment4">
+                <div class="shipment">
+                    <div class="time">2:15pm</div>
+                    <div class="event">
+                        <h1 class="title">Departed Local Facility</h1>
+                        <p class="comment">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida rhoncus
+                            condimentum. Proin luctus ris<span id="dots">...</span>
+                            <span id="more">consectetur adipiscing elit. dolor sit amet, consectetur adipiscing
+                                elit.</span>
+                            <span onclick="myFunction()" id="myBtn">View all</span>
+                        </p>
+                    </div>
+                    <div class="eventPosition">Kara, TG</div>
+                </div>
+            </div>
+            <div class="shipment5">
+                <div class="shipment">
+                    <div class="time">1:35pm</div>
+                    <div class="event">
+                        <h1 class="title">Arrived at Local Facility</h1>
+                    </div>
+                    <div class="eventPosition">Lome, TG</div>
+                </div>
+            </div>
+            <div class="shipment6">
+                <div class="shipment">
+                    <div class="date">April 25th</div>
+                    <div class="time">10:27am</div>
+                    <div class="event">
+                        <h1 class="title">Shipment Delayed</h1>
+                    </div>
+                    <div class="eventPosition">Lome, TG</div>
+                </div>
+            </div>
+            <div class="shipment7">
+                <div class="shipment">
+                    <div class="date">April 22nd</div>
+                    <div class="time">10:32am</div>
+                    <div class="event">
+                        <h1 class="title">Passing Through</h1>
+                        <div class="comment">Weather Delay - Rescheduled for April 25th</div>
+                    </div>
+                    <div class="eventPosition">Abidjan, CI</div>
+                </div>
+            </div>
+            <div class="shipment8">
+                <div class="shipment">
+                    <div class="date">April 21st</div>
+                    <div class="time">9:34am</div>
+                    <div class="event">
+                        <h1 class="title">Departed Shipper Location</h1>
+                        <div class="comment">Weather Delay</div>
+                    </div>
+                    <div class="eventPosition">Abidjan, CI</div>
+                </div>
+            </div>
+            <div class="shipment9">
+                <div class="shipment">
+                    <div class="date">April 20th</div>
+                    <div class="time">11:22am</div>
+                    <div class="event">
+                        <h1 class="title">Arrived Shipper Location</h1>
+                        <div class="comment">Scheduled for April 26th</div>
+                    </div>
+                    <div class="eventPosition">Cassablanca, MAR</div>
+                </div>
+            </div>
+            <div class="shipment10">
+                <div class="shipment">
+                    <div class="date">April 16th</div>
+                    <div class="time">10:27am</div>
+                    <div class="event">
+                        <h1 class="title">Pickup Scheduled</h1>
+                    </div>
+                    <div class="eventPosition">Cassablanca, MAR</div>
+                </div>
+            </div>
+            <div class="shipment11">
+                <div class="shipment">
+                    <div class="date">April 15th</div>
+                    <div class="time">10:27am</div>
+                    <div class="event">
+                        <h1 class="title">Shipment Requested</h1>
+                    </div>
+                    <div class="eventPosition">Rabbat, MAR</div>
+                </div>
+            </div>
+            <div class="shipmentbar">
+                <div class="component1">
+                    <div class="status">
+                        <img src="./assets/icônes/check-line.svg" alt="">
+                    </div>
+                    <div class="vector1"></div>
+                    <div class="elipse1"></div>
+                    <div class="vector2"></div>
+                    <div class="elipse2"></div>
+                </div>
+                <div class="component2">
+                    <div class="vector1"></div>
+                    <div class="elipse1"></div>
+                    <div class="vector2"></div>
+                </div>
+                <div class="component3">
+                    <div class="status">
+                        <img src="./assets/icônes/map-marker-line.svg" alt="">
+                    </div>
+                </div>
+                <div class="component4">
+                    <div class="vector1"></div>
+                    <div class="elipse1"></div>
+                    <div class="vector2"></div>
+                    <div class="elipse2"></div>
+                </div>
+                <div class="component5">
+                    <div class="vector1"></div>
+                    <div class="elipse1"></div>
+                    <div class="vector2"></div>
+                    <div class="elipse2"></div>
+                </div>
+                <div class="component6">
+                    <div class="vector1"></div>
+                    <div class="elipse1"></div>
+                    <div class="vector2"></div>
+                    <div class="elipse2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "View all";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "View less";
+                btnText.style.whiteSpace = "nowrap"
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1298 @@
+:root {
+    --cello: #1C355E;
+    --boston-blue: #428BCA;
+    --red: #D43B1A;
+    --yellow: #F6A800;
+    --nevada: #696F77;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+    font-family: Montserrat;
+}
+
+.heading {
+    position: absolute;
+    width: 190px;
+    height: 58px;
+    left: 100px;
+    top: 51px;
+    font-size: 24px;
+    font-weight: 600px;
+    font-style: normal;
+    line-height: 29.26px;
+}
+
+.container {
+    position: absolute;
+    width: 666px;
+    height: 1149px;
+    left: 387px;
+    top: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 64px;
+    isolation: isolate;
+}
+
+/*Shipment 1*/
+
+.shipment1 {
+    width: 665px;
+    height: 45px;
+}
+
+.shipment1 .shipment {
+    width: 665px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.shipment1 .shipment .date {
+    position: absolute;
+    width: 70px;
+    height: 17px;
+    left: 1px;
+    top: 0px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+.shipment1 .shipment .time {
+    position: absolute;
+    width: 53px;
+    height: 17px;
+    left: 106px;
+    top: 0px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+.shipment1 .shipment .event {
+    position: absolute;
+    width: 99px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    left: 211px;
+    top: 0px;
+}
+
+.shipment1 .shipment .event .title {
+    width: 99px;
+    height: 24px;
+    font-size: 20px;
+    top: 0px;
+    font-weight: 600px;
+    line-height: 24.38px;
+    color: var(--cello);
+}
+
+.shipment1 .shipment .event .comment {
+    width: 74px;
+    height: 17px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+.shipment1 .shipment .eventPosition {
+    position: absolute;
+    left: 526px;
+    width: 140px;
+    height: 17px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+/*Shipment 2*/
+
+.shipment2 {
+    width: 665px;
+    height: 24px;
+}
+
+.shipment2 .shipment {
+    width: 665px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.shipment2 .shipment .date {
+    position: absolute;
+    width: 70px;
+    height: 17px;
+    left: 1px;
+    top: 109px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+.shipment2 .shipment .time {
+    position: absolute;
+    width: 53px;
+    height: 17px;
+    left: 106px;
+    top: 109px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+.shipment2 .shipment .event {
+    position: absolute;
+    width: 99px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    left: 211px;
+    top: 109px;
+}
+
+.shipment2 .shipment .event .title {
+    width: 259px;
+    height: 24px;
+    font-size: 20px;
+    top: 109px;
+    font-weight: 600px;
+    line-height: 24.38px;
+    color: var(--cello);
+}
+
+.shipment2 .shipment .eventPosition {
+    position: absolute;
+    left: 526px;
+    width: 140px;
+    height: 17px;
+    top: 109px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+/*Shipment 3*/
+
+.shipment3 {
+    width: 666px;
+    height: 45px;
+}
+
+.shipment3 .shipment {
+    width: 666px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.shipment3 .shipment .date {
+    position: absolute;
+    width: 70px;
+    height: 17px;
+    left: 1px;
+    top: 197px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+.shipment3 .shipment .time {
+    position: absolute;
+    width: 53px;
+    height: 17px;
+    left: 106px;
+    top: 197px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+.shipment3 .shipment .event {
+    position: absolute;
+    width: 99px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    left: 211px;
+    top: 197px;
+}
+
+.shipment3 .shipment .event .title {
+    width: 210px;
+    height: 24px;
+    font-size: 20px;
+    top: 197px;
+    font-weight: 600px;
+    line-height: 24.38px;
+    color: var(--cello);
+}
+
+.shipment3 .shipment .event .comment {
+    width: 206px;
+    height: 17px;
+    top: 197px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+.shipment3 .shipment .eventPosition {
+    position: absolute;
+    left: 526px;
+    width: 140px;
+    height: 17px;
+    top: 197px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+
+/*Shipment 4*/
+
+.shipment4 {
+    width: 561px;
+    height: 80px;
+}
+
+.shipment4 .shipment {
+    width: 561px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.shipment4 .shipment .time {
+    position: absolute;
+    width: 53px;
+    height: 17px;
+    left: 106px;
+    top: 306px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+.shipment4 .shipment .event {
+    position: absolute;
+    width: 99px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    left: 211px;
+    top: 306px;
+}
+
+.shipment4 .shipment .event .title {
+    width: 237px;
+    height: 24px;
+    font-size: 20px;
+    top: 306px;
+    font-weight: 600px;
+    line-height: 24.38px;
+    color: var(--cello);
+}
+
+.shipment4 .shipment .event .comment {
+    width: 291px;
+    height: 119px;
+    top: 306px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+#more{
+    display: none;
+}
+#myBtn{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.shipment4 .shipment .eventPosition {
+    position: absolute;
+    left: 526px;
+    width: 140px;
+    height: 17px;
+    top: 306px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+
+/*Shipment 5*/
+
+.shipment5 {
+    width: 240px;
+    height: 24px;
+}
+
+.shipment5 .shipment {
+    width: 240px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.shipment5 .shipment .time {
+    position: absolute;
+    width: 53px;
+    height: 17px;
+    left: 106px;
+    top: 450px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+.shipment5 .shipment .event {
+    position: absolute;
+    width: 99px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    left: 211px;
+    top: 450px;
+}
+
+.shipment5 .shipment .event .title {
+    width: 237px;
+    height: 24px;
+    font-size: 20px;
+    top: 450px;
+    font-weight: 600px;
+    line-height: 24.38px;
+    color: var(--cello);
+}
+
+.shipment5 .shipment .eventPosition {
+    position: absolute;
+    left: 526px;
+    width: 140px;
+    height: 17px;
+    top: 450px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+
+/*Shipment 6*/
+
+.shipment6 {
+    width: 666px;
+    height: 24px;
+}
+
+.shipment6 .shipment {
+    width: 666px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.shipment6 .shipment .time {
+    position: absolute;
+    width: 53px;
+    height: 17px;
+    left: 106px;
+    top: 538px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+.shipment6 .shipment .event {
+    position: absolute;
+    width: 99px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    left: 211px;
+    top: 538px;
+}
+
+.shipment6 .shipment .event .title {
+    width: 192px;
+    height: 24px;
+    font-size: 20px;
+    top: 538px;
+    font-weight: 600px;
+    line-height: 24.38px;
+    color: var(--cello);
+}
+
+.shipment6 .shipment .eventPosition {
+    position: absolute;
+    left: 526px;
+    width: 140px;
+    height: 17px;
+    top: 538px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+/*Shipment 7*/
+
+.shipment7 {
+    width: 666px;
+    height: 62px;
+}
+
+.shipment7 .shipment {
+    width: 666px;
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.shipment7 .shipment .time {
+    position: absolute;
+    width: 53px;
+    height: 17px;
+    left: 106px;
+    top: 626px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+.shipment7 .shipment .event {
+    position: absolute;
+    width: 99px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    left: 211px;
+    top: 626px;
+}
+
+.shipment7 .shipment .event .title {
+    width: 174px;
+    height: 24px;
+    font-size: 20px;
+    top: 626px;
+    font-weight: 600px;
+    line-height: 24.38px;
+    color: var(--cello);
+}
+
+.shipment7 .shipment .event .comment {
+    width: 235px;
+    height: 34px;
+    top: 626px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+.shipment7 .shipment .eventPosition {
+    position: absolute;
+    left: 526px;
+    width: 140px;
+    height: 17px;
+    top: 626px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+
+/*Shipment 8*/
+
+.shipment8 {
+    width: 666px;
+    height: 45px;
+}
+
+.shipment8 .shipment {
+    width: 666px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.shipment8 .shipment .time {
+    position: absolute;
+    width: 53px;
+    height: 17px;
+    left: 106px;
+    top: 752px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+.shipment8 .shipment .event {
+    position: absolute;
+    width: 99px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    left: 211px;
+    top: 752px;
+}
+
+.shipment8 .shipment .event .title {
+    width: 279px;
+    height: 24px;
+    font-size: 20px;
+    top: 752px;
+    font-weight: 600px;
+    line-height: 24.38px;
+    color: var(--cello);
+}
+
+.shipment8 .shipment .event .comment {
+    width: 106px;
+    height: 17px;
+    top: 752px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+.shipment8 .shipment .eventPosition {
+    position: absolute;
+    left: 526px;
+    width: 140px;
+    height: 17px;
+    top: 752px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+
+/*Shipment 9*/
+
+.shipment9 {
+    width: 666px;
+    height: 45px;
+}
+
+.shipment9 .shipment {
+    width: 666px;
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.shipment9 .shipment .time {
+    position: absolute;
+    width: 53px;
+    height: 17px;
+    left: 106px;
+    top: 861px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+.shipment9 .shipment .event {
+    position: absolute;
+    width: 99px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    left: 211px;
+    top: 861px;
+}
+
+.shipment9 .shipment .event .title {
+    width: 256px;
+    height: 24px;
+    font-size: 20px;
+    top: 861px;
+    font-weight: 600px;
+    line-height: 24.38px;
+    color: var(--cello);
+}
+
+.shipment9 .shipment .event .comment {
+    width: 172px;
+    height: 17px;
+    top: 861px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+.shipment9 .shipment .eventPosition {
+    position: absolute;
+    left: 526px;
+    width: 140px;
+    height: 17px;
+    top: 861px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+/*Shipment 10*/
+
+.shipment10 {
+    width: 666px;
+    height: 24px;
+}
+
+.shipment10 .shipment {
+    width: 666px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.shipment10 .shipment .time {
+    position: absolute;
+    width: 53px;
+    height: 17px;
+    left: 106px;
+    top: 970px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+.shipment10 .shipment .event {
+    position: absolute;
+    width: 99px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    left: 211px;
+    top: 970px;
+}
+
+.shipment10 .shipment .event .title {
+    width: 187px;
+    height: 24px;
+    font-size: 20px;
+    top: 970px;
+    font-weight: 600px;
+    line-height: 24.38px;
+    color: var(--cello);
+}
+
+.shipment10 .shipment .eventPosition {
+    position: absolute;
+    left: 526px;
+    width: 140px;
+    height: 17px;
+    top: 970px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+/*Shipment 11*/
+
+.shipment11 {
+    width: 666px;
+    height: 24px;
+}
+
+.shipment11 .shipment {
+    width: 666px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.shipment11 .shipment .time {
+    position: absolute;
+    width: 53px;
+    height: 17px;
+    left: 106px;
+    top: 1058px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+.shipment11 .shipment .event {
+    position: absolute;
+    width: 99px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    left: 211px;
+    top: 1058px;
+}
+
+.shipment11 .shipment .event .title {
+    width: 219px;
+    height: 24px;
+    font-size: 20px;
+    top: 1058px;
+    font-weight: 600px;
+    line-height: 24.38px;
+    color: var(--cello);
+}
+
+.shipment11 .shipment .eventPosition {
+    position: absolute;
+    left: 526px;
+    width: 140px;
+    height: 17px;
+    top: 1058px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 17.07px;
+}
+
+/* shipmentbar */
+.shipmentbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    position: absolute;
+    width: 36px;
+    height: 1093px;
+    left: 171px;
+    top: 0px;
+    bottom: -6px;
+}
+
+.shipmentbar .component1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    width: 36px;
+    height: 223px;
+    top: 0px;
+}
+
+.status{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 0px;
+    top: 0px;
+    border-radius: 18px;
+    border: 4px solid var(--boston-blue);
+}
+
+.component1 .status img{
+    position: absolute;
+    left: 8.47%;
+    right: 8.5%;
+    top: 19.58%;
+    bottom: 23.08%;
+    align-items: center;
+}
+
+.component1 .vector1{
+    position: absolute;
+    top: 40px;
+    width: 0px;
+    height: 76px;
+    border: 2px solid var(--boston-blue);
+}
+
+.component1 .vector2{
+    position: absolute;
+    top: 140px;
+    width: 0px;
+    height: 63px;
+    border: 2px solid var(--boston-blue);
+}
+
+.component1 .elipse1{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #428BCA;
+    top: 120px;
+    border-radius: 8px;
+}
+
+.component1 .elipse2{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: var(--red);
+    top: 207px;
+    border-radius: 8px;
+}
+
+.shipmentbar .component2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 16px;
+    height: 218px;
+    top: 221px;
+}
+
+.component2 .vector1{
+    position: absolute;
+    top: 8px;
+    width: 0px;
+    height: 76px;
+    border: 2px solid var(--red);
+}
+
+.component2 .elipse1{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #428BCA;
+    top: 88px;
+    border-radius: 8px;
+}
+
+.component2 .vector2{
+    position: absolute;
+    width: 0px;
+    height: 110px;
+    border: 2px solid var(--boston-blue);
+    top: 108px;
+}
+
+.component3 .status img{
+    position: absolute;
+    left: 2px;
+    bottom: 1px;
+}
+
+.shipmentbar .component3{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 443px;
+}
+
+.shipmentbar .component4{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 16px;
+    height: 162px;
+    top: 483px;
+}
+
+.component4 .vector1{
+    width: 0px;
+    height: 55px;
+    background: var(--yellow);
+    border: 2px solid var(--yellow);
+}
+
+.component4 .elipse1{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 59px;
+    background: var(--yellow);
+    border-radius: 8px;
+}
+
+.component4 .vector2{
+    position: absolute;
+    top: 79px;
+    width: 0px;
+    height: 63px;
+    background: var(--yellow);
+    border: 2px solid var(--yellow);
+
+}
+
+.component4 .elipse2{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #428BCA;
+    top: 146px;
+    border-radius: 8px;
+}
+
+.shipmentbar .component5{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 16px;
+    height: 232.02px;
+    top: 649px;
+}
+
+.component5 .vector1{
+    position: absolute;
+    top: 0px;
+    width: 0px;
+    height: 104px;
+    border: 2px solid var(--boston-blue);
+}
+
+.component5 .elipse1{
+    position: absolute;
+    top: 108px;
+    width: 16px;
+    height: 16px;
+    background: var(--boston-blue);
+    border-radius: 8px;
+}
+
+.component5 .vector2{
+    position: absolute;
+    top: 128px;
+    width: 0px;
+    height: 84.02px;
+    border: 2px solid var(--boston-blue);
+}
+
+.component5 .elipse2{
+    position: absolute;
+    top: 216px;
+    width: 16px;
+    height: 16px;
+    background: var(--boston-blue);
+    border-radius: 8px;
+}
+
+.shipmentbar .component6{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 16px;
+    height: 202px;
+    top: 885px;
+}
+
+.component6 .vector1{
+    position: absolute;
+    top: 0px;
+    width: 0px;
+    height: 83px;
+    border: 2px solid var(--boston-blue);
+}
+
+.component6 .elipse1{
+    position: absolute;
+    top: 87px;
+    width: 16px;
+    height: 16px;
+    background: var(--boston-blue);
+    border-radius: 8px;
+}
+
+.component6 .vector2{
+    position: absolute;
+    top: 107px;
+    width: 0px;
+    height: 75px;
+    border: 2px solid var(--boston-blue);
+}
+
+.component6 .elipse2{
+    position: absolute;
+    top: 186px;
+    width: 16px;
+    height: 16px;
+    background: var(--boston-blue);
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1024px){
+    .heading{
+        width: 199px;
+        height: 64px;
+        left: 50px;
+        top: 51px;
+    }
+
+    .container{
+        height: 1082px;
+        left: 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .heading{
+        padding: 20px 32px;
+        gap: 10px;
+        position: absolute;
+        width: 744px;
+        height: 64px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .container{
+        padding: 0px;
+        width: 666px;
+        height: 1082px;
+        left: 39px;
+        bottom: -38px;
+        top: 91px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .heading{
+        padding: 10px 20px;
+        gap: 10px;
+        position: absolute;
+        width: 375px;
+        height: 56px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .container{
+        padding: 0px;
+        gap: 64px;
+        top: 75px;
+        width: 335px;
+        height: 1541px;
+        left: 20px;
+        bottom: 32px;
+    }
+
+    .shipment1 .shipment .eventPosition{
+        position: absolute;
+        top: 49px;
+        width: 76px;
+        height: 17px;
+        font-size: 14px;
+        line-height: 17px;
+        left: 210px;
+        color: var(--cello);
+        font-weight: bold;
+    }
+
+    .shipment2 .shipment .eventPosition{
+        width: 58px;
+        height: 17px;
+        font-size: 14px;
+        line-height: 17px;
+        color: var(--cello);
+        font-weight: bold;
+        left: 210px;
+        top: 160px;
+    }
+
+    .shipment2 .shipment .event .title{
+        width: 224px;
+        height: 48px;
+    }
+
+    .shipment3 .shipment .event .title{
+        width: 224px;
+        height: 48px;
+    }
+
+    .shipment3 .shipment .eventPosition{
+        width: 58px;
+        height: 17px;
+        font-size: 14px;
+        line-height: 17px;
+        color: var(--cello);
+        font-weight: bold;
+        left: 210px;
+        top: 245px;
+    }
+
+    .shipment4 .shipment .event {
+        width: 224px;
+        height: 209px;
+    }
+
+    .shipment4 .shipment .event .title{
+        width: 224px;
+        height: 48px;
+    }
+
+    .shipment4 .shipment .event .comment{
+        width: 280px;
+    }
+
+    .shipment4 .shipment .eventPosition{
+        width: 70px;
+        height: 17px;
+        font-size: 14px;
+        line-height: 17px;
+        color: var(--cello);
+        font-weight: bold;
+        left: 210px;
+        top: 428px;
+    }
+
+    .shipment5 .shipment .eventPosition{
+        width: 70px;
+        height: 17px;
+        font-size: 14px;
+        line-height: 17px;
+        color: var(--cello);
+        font-weight: bold;
+        left: 210px;
+        top: 475px;
+    }
+
+    .shipment6 .shipment .eventPosition{
+        width: 70px;
+        height: 17px;
+        font-size: 14px;
+        line-height: 17px;
+        color: var(--cello);
+        font-weight: bold;
+        left: 210px;
+        top: 565px;
+    }
+
+    .shipment7 .shipment .eventPosition{
+        width: 80px;
+        height: 17px;
+        font-size: 14px;
+        line-height: 17px;
+        color: var(--cello);
+        font-weight: bold;
+        left: 210px;
+        top: 690px;
+    }
+
+    .shipment8 .shipment .eventPosition{
+        width: 80px;
+        height: 17px;
+        font-size: 14px;
+        line-height: 17px;
+        color: var(--cello);
+        font-weight: bold;
+        left: 210px;
+        top: 800px;
+    }
+
+    .shipment9 .shipment .eventPosition{
+        width: 150px;
+        height: 17px;
+        font-size: 14px;
+        line-height: 17px;
+        color: var(--cello);
+        font-weight: bold;
+        left: 210px;
+        top: 910px;
+    }
+
+    .shipment10 .shipment .eventPosition{
+        width: 150px;
+        height: 17px;
+        font-size: 14px;
+        line-height: 17px;
+        color: var(--cello);
+        font-weight: bold;
+        left: 210px;
+        top: 1000px;
+    }
+
+    .shipment11 .shipment .eventPosition{
+        width: 150px;
+        height: 17px;
+        font-size: 14px;
+        line-height: 17px;
+        color: var(--cello);
+        font-weight: bold;
+        left: 210px;
+        top: 1085px;
+    }
+
+}
+
+
+
