@@ -345,14 +345,6 @@
     line-height: 17.07px;
 }
 
-#more{
-    display: none;
-}
-#myBtn{
-    font-weight: bold;
-    cursor: pointer;
-}
-
 .shipment4 .shipment .eventPosition {
     position: absolute;
     left: 526px;
@@ -1125,6 +1117,11 @@
 }
 
 @media screen and (max-width: 375px) {
+
+    .main{
+        width: 375px;
+        height: 812px;
+    }
 
     .heading{
         padding: 10px 20px;
